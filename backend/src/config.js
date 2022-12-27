@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "TopGangsterSociety";
 const description = "'Trauma and difficulty are extremely important for a man because they serve as the foundation for mental and physical fortitude', a wise man once said. Top Gangster Society is a collection of characters, each with their own distinct personality. Because we believe in a manly world full of security and love, these beautiful strong masculine characters come to life to demonstrate what a true man's society should look like.";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "ipfs://bafybeiean3bdmdohwkpledbfxjf3pbowlpjiqcwzfkocv7l6h6pjfjnpq4/"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
