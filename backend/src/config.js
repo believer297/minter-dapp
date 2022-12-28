@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "TopGangsterSociety";
 const description = "'Trauma and difficulty are extremely important for a man because they serve as the foundation for mental and physical fortitude', a wise man once said. Top Gangster Society is a collection of characters, each with their own distinct personality. Because we believe in a manly world full of security and love, these beautiful strong masculine characters come to life to demonstrate what a true man's society should look like.";
-const baseUri = "ipfs://bafybeiean3bdmdohwkpledbfxjf3pbowlpjiqcwzfkocv7l6h6pjfjnpq4/"; // This will be replaced automatically
+const baseUri = ""; // This will be replaced automatically
 
 const layerConfigurations = [
   {
@@ -59,7 +59,7 @@ const extraMetadata = {
 
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
-const LIMIT = 2; // Your API key rate limit
+const LIMIT = 7; // Your API key rate limit
 const CHAIN = 'polygon'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
@@ -73,7 +73,7 @@ const MINT_PRICE = 98; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, P
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-01-01T00:00:07+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-02-08T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-02-08T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
